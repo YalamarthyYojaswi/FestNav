@@ -109,7 +109,7 @@ function peopleScreen(){
   hideStartVisit();
   clearAROverlays();
 
-  document.getElementById("ar-world").classList.add("people-mode");  // 🔥 THIS FIXES CLICKS
+  document.getElementById("ar-world").classList.add("people-mode"); 
 
   screen.innerHTML = `
   <div id="people-layer">
@@ -668,7 +668,7 @@ function fullMapScreen(){
     };
   });
 
-  screen.innerHTML = ""; // important — leave AR space free
+  screen.innerHTML = ""; 
 
   document.getElementById("ar-overlay").innerHTML = `
     <div id="map-card">
@@ -966,6 +966,7 @@ function bindSideNav(){
 }
 
 setTimeout(bindSideNav, 100);
+
 
 
 
